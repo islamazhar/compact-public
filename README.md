@@ -9,7 +9,7 @@ This repository contains the evaluation code for the PETs 2024 paper: [**Compact
 ## Citations
 
 ## Todo
-[] Add the instructions to run the code
-[] Upload the trained model in Google Drive and share
+[ ] Add the instructions to run the code
+[ ] Upload the trained model in Google Drive and share
 
 

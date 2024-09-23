@@ -21,14 +21,13 @@ If you use findings of this study in your research, please cite the following pu
 ```
 @article{compact,
   title={Compact: Approximating Complex Activation Functions for Secure Computation},
-  author={Mazharul, Islam and Sunpreet, S. Arora, and Rahul, Chatterjee, and Peter, Rindal, and Maliheh, Shirvanian‡},
+  author={Mazharul, Islam and Sunpreet, S. Arora, and Rahul, Chatterjee, and Peter, Rindal, and Maliheh, Shirvanian},
   journal={Proceedings on Privacy Enhancing Technologies},
   volume={2024},
   number={3},
   pages={25–41},
   year={2024}
 }
-
 ```
 
 ## Todo

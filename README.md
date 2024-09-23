@@ -1,8 +1,8 @@
 # Compact-public
-Compact is scheme that produces piece-wise polynomial
+Compact is a scheme that produces piece-wise polynomial
 approximations of complex activation functions (i.e., `silu`, `gelu`, `mish`). The generated approximation can be used
 with state-of-the-art MPC techniques without the need to 
-train the model  to retrain model accuracy. 
+train the model further to retrain model accuracy. 
 To achieve this, in compact, we infuse input density
 awareness and use an application specific simulated annealing type
 optimization to generate computationally efficient approximations

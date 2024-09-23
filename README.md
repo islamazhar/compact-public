@@ -1,5 +1,11 @@
-# compact-public
+# Compact-public
+This repository contains the evaluation code for the PETs 2024 paper: [**Compact: Approximating Complex Activation Functions for Secure Computation**](https://arxiv.org/pdf/2309.04664)
 
-This repository contains the evaluation code for the PETs 2024 paper: **Compact: Approximating Complex Activation Functions for Secure Computation**.
+## Background and Motivation
+## Results
 
-Code to be released soon.
+## How to run 
+
+## Citations
+
+

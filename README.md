@@ -1,7 +1,15 @@
 # Compact-public
-This repository contains the evaluation code for the PETs 2024 paper: [**Compact: Approximating Complex Activation Functions for Secure Computation**](https://arxiv.org/pdf/2309.04664)
+Compact is scheme that produces piece-wise polynomial
+approximations of complex activation functions (i.e., `silu`, `gelu`, `mish`). The generated approximation can be used
+with state-of-the-art MPC techniques without the need to 
+train the model  to retrain model accuracy. 
+To achieve this, in compact, we infuse input density
+awareness and use an application specific simulated annealing type
+optimization to generate computationally efficient approximations
+of complex activation functions. 
 
-## Background and Motivation
+Compact is described in this paper: [**Compact: Approximating Complex Activation Functions for Secure Computation**](https://arxiv.org/pdf/2309.04664) accepted at Privacy Enhancing Technologies (PETs) 2024 conference.
+
 ## Results
 
 ## How to run 
@@ -11,20 +19,14 @@ Some part of the code is taken from the [NFGen](https://github.com/Fannxy/NFGen/
 
 If you use findings of this study in your research, please cite the following publication.
 ```
-@INPROCEEDINGS {Spring-security,
-author = {M. Islam and S. Rahaman and N. Meng and B. Hassanshahi and P. Krishnan and D. Yao},
-booktitle = {2020 IEEE Secure Development (SecDev)},
-title = {Coding Practices and Recommendations of Spring Security for Enterprise Applications},
-year = {2020},
-volume = {},
-issn = {},
-pages = {49-57},
-keywords = {security;springs;authentication;uniform resource locators;password;encoding;authorization},
-doi = {10.1109/SecDev45635.2020.00024},
-url = {https://doi.ieeecomputersociety.org/10.1109/SecDev45635.2020.00024},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
-month = {sep}
+@article{compact,
+  title={Compact: Approximating Complex Activation Functions for Secure Computation},
+  author={Mazharul, Islam and Sunpreet, S. Arora, and Rahul, Chatterjee, and Peter, Rindal, and Maliheh, Shirvanian‡},
+  journal={Proceedings on Privacy Enhancing Technologies},
+  volume={2024},
+  number={3},
+  pages={25–41},
+  year={2024}
 }
 
 ```

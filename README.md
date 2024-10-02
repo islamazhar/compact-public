@@ -15,7 +15,7 @@ Compact is described in this paper: [**Compact: Approximating Complex Activation
 ## How to run 
 
 ## Acknowledgements  and Citations
-Some part of the code is taken from the [NFGen](https://github.com/Fannxy/NFGen/tree/main).
+Some part of the code is taken from  [NFGen](https://github.com/Fannxy/NFGen/tree/main).
 
 If you use findings of this study in your research, please cite the following publication.
 ```
